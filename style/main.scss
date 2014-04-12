@@ -1,0 +1,30 @@
+body { background-color: #04d0fb; color: black; }
+
+#logo { max-width: 100%; }
+
+#social {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 50px;
+	line-height: 50px;
+	margin: 30px 0;
+}
+
+a {
+	color: black;
+}
+
+.game-container { background-color: #be5353; }
+
+.mid { width: 49%; float: left; text-align: center; }
+.mid a { text-decoration: none; color: black; }
+.mid a:hover { text-decoration: underline; }
+
+.above-game { padding-top: 14px; text-align: left; float: left; }
+.restart-button { float: left; }
+.above-game, .scores-container { width: 49%; float: left; }
+.heading { text-align: center }
+.scores-container { float: none; }
+.above-game { display: inline-block; }
+.scores-container { display: inline-block; }
+.heading img { padding: 50px 0;}
